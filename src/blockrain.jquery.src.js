@@ -880,7 +880,7 @@
           } else {
 
             // Update the speed
-            this.animateDelay = 1000 / game.options.speed;
+            //this.animateDelay = 1000 / game.options.speed;
 
             this.animateTimeoutId = window.setTimeout(function() {
               game._board.animate();
